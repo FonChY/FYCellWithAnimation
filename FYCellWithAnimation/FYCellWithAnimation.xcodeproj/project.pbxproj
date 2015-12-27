@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32DC0F2A1C2EB5B70082009D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC0F291C2EB5B70082009D /* main.m */; };
+		32DC0F2D1C2EB5B70082009D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC0F2C1C2EB5B70082009D /* AppDelegate.m */; };
+		32DC0F351C2EB5B70082009D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32DC0F341C2EB5B70082009D /* Assets.xcassets */; };
+		32DC0F381C2EB5B70082009D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32DC0F361C2EB5B70082009D /* LaunchScreen.storyboard */; };
+		32DC0F431C2EB5F20082009D /* FYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC0F401C2EB5F20082009D /* FYTableViewCell.m */; };
+		32DC0F471C2EB64D0082009D /* FYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC0F461C2EB64D0082009D /* FYViewController.m */; };
+		32DC0F4A1C2EB8DD0082009D /* FYOneTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC0F491C2EB8DD0082009D /* FYOneTableViewController.m */; };
+		32DC0F4D1C2EB8E60082009D /* FYTwoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC0F4C1C2EB8E60082009D /* FYTwoTableViewController.m */; };
+		32DC0F501C2EB8ED0082009D /* FYThreeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC0F4F1C2EB8ED0082009D /* FYThreeTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32DC0F251C2EB5B70082009D /* FYCellWithAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYCellWithAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32DC0F291C2EB5B70082009D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32DC0F2B1C2EB5B70082009D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32DC0F2C1C2EB5B70082009D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32DC0F341C2EB5B70082009D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32DC0F371C2EB5B70082009D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32DC0F391C2EB5B70082009D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32DC0F3F1C2EB5F20082009D /* FYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FYTableViewCell.h; path = ../FYTableViewCell.h; sourceTree = "<group>"; };
+		32DC0F401C2EB5F20082009D /* FYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYTableViewCell.m; path = ../FYTableViewCell.m; sourceTree = "<group>"; };
+		32DC0F451C2EB64D0082009D /* FYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FYViewController.h; path = ../FYViewController.h; sourceTree = "<group>"; };
+		32DC0F461C2EB64D0082009D /* FYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYViewController.m; path = ../FYViewController.m; sourceTree = "<group>"; };
+		32DC0F481C2EB8DD0082009D /* FYOneTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYOneTableViewController.h; sourceTree = "<group>"; };
+		32DC0F491C2EB8DD0082009D /* FYOneTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYOneTableViewController.m; sourceTree = "<group>"; };
+		32DC0F4B1C2EB8E60082009D /* FYTwoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYTwoTableViewController.h; sourceTree = "<group>"; };
+		32DC0F4C1C2EB8E60082009D /* FYTwoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYTwoTableViewController.m; sourceTree = "<group>"; };
+		32DC0F4E1C2EB8ED0082009D /* FYThreeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYThreeTableViewController.h; sourceTree = "<group>"; };
+		32DC0F4F1C2EB8ED0082009D /* FYThreeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYThreeTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32DC0F221C2EB5B70082009D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32DC0F1C1C2EB5B70082009D = {
+			isa = PBXGroup;
+			children = (
+				32DC0F271C2EB5B70082009D /* FYCellWithAnimation */,
+				32DC0F261C2EB5B70082009D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32DC0F261C2EB5B70082009D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32DC0F251C2EB5B70082009D /* FYCellWithAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32DC0F271C2EB5B70082009D /* FYCellWithAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				32DC0F2B1C2EB5B70082009D /* AppDelegate.h */,
+				32DC0F2C1C2EB5B70082009D /* AppDelegate.m */,
+				32DC0F451C2EB64D0082009D /* FYViewController.h */,
+				32DC0F461C2EB64D0082009D /* FYViewController.m */,
+				32DC0F3F1C2EB5F20082009D /* FYTableViewCell.h */,
+				32DC0F401C2EB5F20082009D /* FYTableViewCell.m */,
+				32DC0F481C2EB8DD0082009D /* FYOneTableViewController.h */,
+				32DC0F491C2EB8DD0082009D /* FYOneTableViewController.m */,
+				32DC0F4B1C2EB8E60082009D /* FYTwoTableViewController.h */,
+				32DC0F4C1C2EB8E60082009D /* FYTwoTableViewController.m */,
+				32DC0F4E1C2EB8ED0082009D /* FYThreeTableViewController.h */,
+				32DC0F4F1C2EB8ED0082009D /* FYThreeTableViewController.m */,
+				32DC0F281C2EB5B70082009D /* Supporting Files */,
+			);
+			path = FYCellWithAnimation;
+			sourceTree = "<group>";
+		};
+		32DC0F281C2EB5B70082009D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32DC0F341C2EB5B70082009D /* Assets.xcassets */,
+				32DC0F361C2EB5B70082009D /* LaunchScreen.storyboard */,
+				32DC0F391C2EB5B70082009D /* Info.plist */,
+				32DC0F291C2EB5B70082009D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32DC0F241C2EB5B70082009D /* FYCellWithAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32DC0F3C1C2EB5B70082009D /* Build configuration list for PBXNativeTarget "FYCellWithAnimation" */;
+			buildPhases = (
+				32DC0F211C2EB5B70082009D /* Sources */,
+				32DC0F221C2EB5B70082009D /* Frameworks */,
+				32DC0F231C2EB5B70082009D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FYCellWithAnimation;
+			productName = FYCellWithAnimation;
+			productReference = 32DC0F251C2EB5B70082009D /* FYCellWithAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32DC0F1D1C2EB5B70082009D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FY;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = fang;
+				TargetAttributes = {
+					32DC0F241C2EB5B70082009D = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 32DC0F201C2EB5B70082009D /* Build configuration list for PBXProject "FYCellWithAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32DC0F1C1C2EB5B70082009D;
+			productRefGroup = 32DC0F261C2EB5B70082009D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32DC0F241C2EB5B70082009D /* FYCellWithAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32DC0F231C2EB5B70082009D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32DC0F381C2EB5B70082009D /* LaunchScreen.storyboard in Resources */,
+				32DC0F351C2EB5B70082009D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32DC0F211C2EB5B70082009D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32DC0F2D1C2EB5B70082009D /* AppDelegate.m in Sources */,
+				32DC0F4D1C2EB8E60082009D /* FYTwoTableViewController.m in Sources */,
+				32DC0F2A1C2EB5B70082009D /* main.m in Sources */,
+				32DC0F501C2EB8ED0082009D /* FYThreeTableViewController.m in Sources */,
+				32DC0F431C2EB5F20082009D /* FYTableViewCell.m in Sources */,
+				32DC0F4A1C2EB8DD0082009D /* FYOneTableViewController.m in Sources */,
+				32DC0F471C2EB64D0082009D /* FYViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32DC0F361C2EB5B70082009D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32DC0F371C2EB5B70082009D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32DC0F3A1C2EB5B70082009D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32DC0F3B1C2EB5B70082009D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32DC0F3D1C2EB5B70082009D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FYCellWithAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fang.FYCellWithAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32DC0F3E1C2EB5B70082009D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FYCellWithAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fang.FYCellWithAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32DC0F201C2EB5B70082009D /* Build configuration list for PBXProject "FYCellWithAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32DC0F3A1C2EB5B70082009D /* Debug */,
+				32DC0F3B1C2EB5B70082009D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32DC0F3C1C2EB5B70082009D /* Build configuration list for PBXNativeTarget "FYCellWithAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32DC0F3D1C2EB5B70082009D /* Debug */,
+				32DC0F3E1C2EB5B70082009D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32DC0F1D1C2EB5B70082009D /* Project object */;
+}
